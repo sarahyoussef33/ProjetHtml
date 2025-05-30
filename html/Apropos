@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Porsche - Gamme Électrique</title>
+    <link rel="stylesheet" href="../css/porsche.css">
+</head>
+<body>
+    <header>
+    <div class="header-video">
+        <video autoplay muted loop playsinline>
+            <source src="../Vidéo/AccueilPorsche.mp4" type="video/mp4">
+        </video>
+    </div>
+   <div class="header-content">
+        <a href="https://www.porsche.com/france/">
+            <img src="../image/Porsche-Logo.png" alt="Logo Porsche" id="logo">
+        </a>
+        <nav>
+            <a href="./accueil.html">Accueil</a>
+            
+            <div class="dropdown">
+                <a href="./Electrique.html" class="dropdown-toggle">Notre gamme 100% électrique</a>
+                <div class="dropdown-menu">
+                    <a href="./modeles.html">Découvrir tous nos modèles 100% électrique</a>
+                    <a href="./taycan.html">Taycan</a>
+                </div>
+            </div>
+            <a href="./espaceClient.html">Réserver votre véhicule</a>
+        </nav>
+    </div>
+        
+    </div>
+</header>
+
+<main>
+
+Ce projet a été réalisé par Arthur Dequesne et Sarah Youssef, étudiants en deuxième année de classe préparatoire à l’Efrei Paris.
+
+Notre site web est constitué de 6 pages HTML, chacune accompagnée de fichiers JavaScript dédiés pour les différentes fonctionnalités, ainsi qu’un fichier CSS commun assurant la cohérence graphique du site.
+
+La réalisation du projet s’est déroulée en plusieurs étapes :
+
+Nous avons travaillé ensemble pour définir la structure générale du site, en accordant une attention particulière aux éléments de navigation tels que les en-têtes (header) et pieds de page (footer).
+
+Un travail collaboratif a été mené afin d’établir une charte graphique homogène à travers le fichier CSS.
+
+Une fois la structure validée, chacun a pris en charge le développement de trois pages HTML distinctes, en y intégrant du contenu personnalisé, des adaptations CSS spécifiques, ainsi que des fonctionnalités interactives en JavaScript.
+
+Lien GitHUB : 
+
+</main>
+
+
+
+
+<footer>
+    <div class="footer-content">
+        <div class="footer-left">
+            <img src="../image/Porsche-Logo.png" alt="Porsche Logo" class="footer-logo">
+            <p>© 2025 PorscheDY. Tous droits réservés.</p>
+        </div>
+
+        <div class="footer-center">
+            <p><strong>Mobilité Responsable</strong></p>
+            <p>Pour les trajets courts, privilégiez la marche ou le vélo</p>
+            <p>Pensez à covoiturer</p>
+            <p>Au quotidien, prenez les transports en commun</p>
+            <p><strong>#SeDéplacerMoinsPolluer</strong></p>
+        </div>
+
+        <div class="footer-right">
+            <a href="https://www.porsche.com/france/">En savoir plus</a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

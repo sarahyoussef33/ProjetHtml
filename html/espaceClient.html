@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Porsche - Réservation</title>
+    <link rel="stylesheet" href="../css/porsche.css">
+    <script src="../js/client.js"></script>
+    <script src="../js/transitions.js"></script>
+
+</head>
+<body>
+     <div id="page-loader">
+    <div class="loader-content">
+        <img src="../image/Porsche-Logo.png" alt="Porsche Logo">
+    </div>
+    </div>
+     <header>
+        <div class="header-image">
+        <img src="../image/reservez.png" alt="ImageModeles">
+    </div>
+        <div class="header-content">
+        <a href="https://www.porsche.com/france/">
+            <img src="../image/Porsche-Logo.png" alt="Logo Porsche" id="logo">
+        </a>
+        <nav>
+            <a href="./accueil.html">Accueil</a>
+            
+            <div class="dropdown">
+                <a href="./Electrique.html" class="dropdown-toggle">Notre gamme 100% électrique</a>
+                <div class="dropdown-menu">
+                    <a href="./modeles.html">Découvrir tous nos modèles 100% électrique</a>
+                    <a href="./taycan.html">Taycan</a>
+                </div>
+            </div>
+            <a href="./espaceClient.html">Réserver votre véhicule</a>
+        </nav>
+        </div>
+        
+    </header>
+
+    <main>
+        <h1>Réservez votre Porsche électrique</h1>
+        <p>Remplissez le formulaire ci-dessous pour effectuer une demande de réservation. Un conseiller vous contactera rapidement.</p>
+<div id="Formulaire">
+        <form action="#" method="post">
+            <label for="nom">Nom :</label><br>
+            <input type="text" id="nom" name="nom" required><br><br>
+
+            <label for="prenom">Prénom :</label><br>
+            <input type="text" id="prenom" name="prenom" required><br><br>
+
+            <label for="email">Adresse email :</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="naissance">Date de naissance :</label><br>
+            <input type="date" id="naissance" name="naissance" required><br><br>
+
+            <label for="modele">Modèle souhaité :</label><br>
+            <select id="modele" name="modele" required>
+                <option value="">-- Choisissez un modèle --</option>
+                <option value="taycan">Taycan</option>
+                <option value="taycanCross">Taycan Cross Turismo</option>
+                <option value="macanElec">Macan Électrique</option>
+            </select>
+            <br><br>
+
+            <fieldset>
+                <legend>Couleur préférée :</legend>
+                <input type="radio" id="noir" name="couleur" value="Noir" required>
+                <label for="noir">Noir</label><br>
+
+                <input type="radio" id="blanc" name="couleur" value="Blanc">
+                <label for="blanc">Blanc</label><br>
+
+                <input type="radio" id="gris" name="couleur" value="Gris">
+                <label for="gris">Gris</label><br>
+
+                <input type="radio" id="rouge" name="couleur" value="Rouge">
+                <label for="rouge">Rouge</label><br>
+
+                <input type="radio" id="bleu" name="couleur" value="Bleu">
+                <label for="bleu">Bleu</label>
+            </fieldset><br>
+
+            <label for="commentaire">Commentaires ou préférences :</label><br>
+            <textarea id="commentaire" name="commentaire" rows="4" cols="50"></textarea><br><br>
+
+            <button type="submit">Réserver mon véhicule</button>
+        </form>
+</div>
+    </main>
+
+   <footer>
+    <div class="footer-content">
+        <div class="footer-left">
+            <img src="../image/Porsche-Logo.png" alt="Porsche Logo" class="footer-logo">
+            <p>©️ 2025 PorscheDY. Tous droits réservés.</p>
+        </div>
+
+        <div class="footer-center">
+            <p><strong>Mobilité Responsable</strong></p>
+            <p>Pour les trajets courts, privilégiez la marche ou le vélo</p>
+            <p>Pensez à covoiturer</p>
+            <p>Au quotidien, prenez les transports en commun</p>
+            <p><strong>#SeDéplacerMoinsPolluer</strong></p>
+        </div>
+
+        <div class="footer-right">
+            <a href="https://www.porsche.com/france/">En savoir plus</a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

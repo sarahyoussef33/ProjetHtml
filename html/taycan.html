@@ -1,16 +1,43 @@
-            
-            <div class="dropdown">
-                <a href="./Electrique.html" class="dropdown-toggle">Notre gamme 100% électrique</a>
-                <div class="dropdown-menu">
-                    <a href="./modeles.html">Découvrir tous nos modèles 100% électrique</a>
-                    <a href="./taycan.html">Taycan</a>
-                </div>
-            </div>
-            <a href="./espaceClient.html">Réserver votre véhicule</a>
-        </nav>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Porsche Taycan</title>
+    <link rel="stylesheet" href="../css/porsche.css">
+    <script src="../js/taycan.js" defer></script>
+    <script src="../js/transitions.js" defer></script>
+</head>
+<body>
+
+    <div id="page-loader">
+        <div class="loader-content">
+            <img src="../image/Porsche-Logo.png" alt="Porsche Logo">
+        </div>
     </div>
 
-        
+    <header class="Taycan">
+        <div class="header-video">
+            <video autoplay muted loop playsinline>
+                <source src="../Vidéo/TaycanVid.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="header-content">
+            <a href="https://www.porsche.com/france/">
+                <img src="../image/Porsche-Logo.png" alt="Logo Porsche" id="logo">
+            </a>
+            <nav>
+                <a href="./accueil.html">Accueil</a>
+                <div class="dropdown">
+                    <a href="./Electrique.html" class="dropdown-toggle">Notre gamme 100% électrique</a>
+                    <div class="dropdown-menu">
+                        <a href="./modeles.html">Découvrir tous nos modèles 100% électrique</a>
+                        <a href="./taycan.html">Taycan</a>
+                    </div>
+                </div>
+                <a href="./espaceClient.html">Réserver votre véhicule</a>
+                <a href="./chatbot.html">Porsche Assistant</a>
+            </nav>
+        </div>
     </header>
 
     <main>
@@ -20,114 +47,109 @@
                 La Porsche Taycan est bien plus qu’une voiture électrique. C’est une déclaration de performance, d’innovation et de style. 
                 Premier modèle 100% électrique de la marque, elle offre une conduite sportive et un design iconique, fidèle à l’ADN Porsche.
             </p>
-<video autoplay muted loop playsinline id="TaycanCarrosserie">
-    <source src="../Vidéo/TaycanCarrosserie.mp4" type="video/mp4">
-</video>
-
-        
+            <video autoplay muted loop playsinline id="TaycanCarrosserie">
+                <source src="../Vidéo/TaycanCarrosserie.mp4" type="video/mp4">
+            </video>
         </section>
 
-      <section class="fiche-technique reveal">
-    <h2>Caractéristiques principales</h2>
+        <section class="fiche-technique reveal">
+            <h2>Caractéristiques principales</h2>
+            <div class="scroll-wrapper">
+                <button class="scroll-btn left" onclick="scrollTechLeft()">←</button>
+                <div class="scroll-cards" id="carouselTech">
+                    <div class="card">
+                        <h3>Autonomie</h3>
+                        <p>Jusqu’à 503 km (cycle WLTP)</p>
+                    </div>
+                    <div class="card">
+                        <h3>Accélération</h3>
+                        <p>0 à 100 km/h en 2,8 secondes (Turbo S)</p>
+                    </div>
+                    <div class="card">
+                        <h3>Puissance</h3>
+                        <p>Jusqu’à 761 ch avec overboost</p>
+                    </div>
+                    <div class="card">
+                        <h3>Recharge</h3>
+                        <p>80% en 22 minutes sur borne rapide</p>
+                    </div>
+                    <div class="card">
+                        <h3>Transmission</h3>
+                        <p>Intégrale (AWD)</p>
+                    </div>
+                    <div class="card">
+                        <h3>Émissions locales</h3>
+                        <p>0g CO₂/km</p>
+                    </div>
+                </div>
+                <button class="scroll-btn right" onclick="scrollTechRight()">→</button>
+            </div>
+        </section>
 
-    <div class="scroll-wrapper">
-        <button class="scroll-btn left" onclick="scrollTechLeft()">←</button>
-
-        <div class="scroll-cards" id="carouselTech">
-            <div class="card">
-                <h3>Autonomie</h3>
-                <p>Jusqu’à 503 km (cycle WLTP)</p>
+        <section class="avantages reveal">
+            <h2>Pourquoi choisir la Taycan ?</h2>
+            <div class="scroll-wrapper">
+                <button class="scroll-btn left" onclick="scrollTaycanLeft()">←</button>
+                <div class="scroll-cards" id="carouselTaycan">
+                    <div class="card">
+                        <h3>Conduite ultra dynamique</h3>
+                        <p>Des accélérations instantanées et une tenue de route exceptionnelle.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Intérieur futuriste</h3>
+                        <p>Un habitacle numérique avec 3 écrans digitaux et des matériaux haut de gamme.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Tenue de route exceptionnelle</h3>
+                        <p>Châssis performant pour une stabilité et un confort optimal à haute vitesse.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Alliance sport et confort</h3>
+                        <p>Le compromis parfait entre plaisir de conduite et confort haut de gamme Porsche.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Technologie embarquée</h3>
+                        <p>Navigation, connectivité avancée et récupération d’énergie intelligente.</p>
+                    </div>
+                </div>
+                <button class="scroll-btn right" onclick="scrollTaycanRight()">→</button>
             </div>
-            <div class="card">
-                <h3>Accélération</h3>
-                <p>0 à 100 km/h en 2,8 secondes (Turbo S)</p>
-            </div>
-            <div class="card">
-                <h3>Puissance</h3>
-                <p>Jusqu’à 761 ch avec overboost</p>
-            </div>
-            <div class="card">
-                <h3>Recharge</h3>
-                <p>80% en 22 minutes sur borne rapide</p>
-            </div>
-            <div class="card">
-                <h3>Transmission</h3>
-                <p>Intégrale (AWD)</p>
-            </div>
-            <div class="card">
-                <h3>Émissions locales</h3>
-                <p>0g CO₂/km</p>
-            </div>
-        </div>
-
-        <button class="scroll-btn right" onclick="scrollTechRight()">→</button>
-    </div>
-</section>
-
-
-<section class="avantages reveal">
-    <h2>Pourquoi choisir la Taycan ?</h2>
-
-    <div class="scroll-wrapper">
-        <button class="scroll-btn left" onclick="scrollTaycanLeft()">←</button>
-
-        <div class="scroll-cards" id="carouselTaycan">
-            <div class="card">
-                <h3>Conduite ultra dynamique</h3>
-                <p>Des accélérations instantanées et une tenue de route exceptionnelle.</p>
-            </div>
-            <div class="card">
-                <h3>Intérieur futuriste</h3>
-                <p>Un habitacle numérique avec 3 écrans digitaux et des matériaux haut de gamme.</p>
-            </div>
-            <div class="card">
-                <h3>Tenue de route exceptionnelle</h3>
-                <p>Châssis performant pour une stabilité et un confort optimal à haute vitesse.</p>
-            </div>
-            <div class="card">
-                <h3>Alliance sport et confort</h3>
-                <p>Le compromis parfait entre plaisir de conduite et confort haut de gamme Porsche.</p>
-            </div>
-            <div class="card">
-                <h3>Technologie embarquée</h3>
-                <p>Navigation, connectivité avancée et récupération d’énergie intelligente.</p>
-            </div>
-        </div>
-
-        <button class="scroll-btn right" onclick="scrollTaycanRight()">→</button>
-    </div>
-</section>
-
+        </section>
 
         <section class="cta reveal">
             <h2>Prêt à passer à l’électrique ?</h2>
             <p>
                 Réservez votre Porsche Taycan dès maintenant depuis notre espace de réservation.
-                <br><br>
-                <a href="./espaceClient.html"><button>Réserver la Taycan</button></a>
             </p>
+                <br><br>
+                <form action="./espaceClient.html" method="get">
+                    <button type="submit">Réserver la Taycan</button>
+                </form>
+        
         </section>
     </main>
 
-   <footer>
-    <div class="footer-content">
-        <div class="footer-left">
-            <img src="../image/Porsche-Logo.png" alt="Porsche Logo" class="footer-logo">
-            <p>©️ 2025 PorscheDY. Tous droits réservés.</p>
-        </div>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                <img src="../image/Porsche-Logo.png" alt="Porsche Logo" class="footer-logo">
+                <p>© 2025 PorscheDY. Tous droits réservés.</p>
+                <p><a href="../html/Apropos.html">À propos de nous</a></p>
+            </div>
 
-        <div class="footer-center">
-            <p><strong>Mobilité Responsable</strong></p>
-            <p>Pour les trajets courts, privilégiez la marche ou le vélo</p>
-            <p>Pensez à covoiturer</p>
-            <p>Au quotidien, prenez les transports en commun</p>
-            <p><strong>#SeDéplacerMoinsPolluer</strong></p>
-        </div>
+            <div class="footer-center">
+                <p><strong>Mobilité Responsable</strong></p>
+                <p>Pour les trajets courts, privilégiez la marche ou le vélo</p>
+                <p>Pensez à covoiturer</p>
+                <p>Au quotidien, prenez les transports en commun</p>
+                <p><strong>#SeDéplacerMoinsPolluer</strong></p>
+            </div>
 
-        <div class="footer-right">
-            <a href="https://www.porsche.com/france/">En savoir plus</a>
+            <div class="footer-right">
+                <a href="https://www.porsche.com/france/">En savoir plus</a>
+            </div>
         </div>
-    </div>
-</footer>
+    </footer>
+
 </body>
 </html>

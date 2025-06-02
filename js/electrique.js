@@ -12,14 +12,13 @@ function scrollToLeft() {
         });
     }
 
-// animation au scroll
 function revealOnScroll() {
     const reveals = document.querySelectorAll(".reveal");
 
     reveals.forEach((section) => {
         const windowHeight = window.innerHeight;
         const revealTop = section.getBoundingClientRect().top;
-        const revealPoint = 100; // plus bas = plus tard
+        const revealPoint = 100; 
 
         if (revealTop < windowHeight - revealPoint) {
             section.classList.add("active");
@@ -27,8 +26,6 @@ function revealOnScroll() {
     });
 }
 
-// Lancer à chaque scroll
 window.addEventListener("scroll", revealOnScroll);
 
-// Lancer au chargement
 window.addEventListener("load", revealOnScroll);

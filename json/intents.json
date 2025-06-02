@@ -1,0 +1,54 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": ["Bonjour", "Salut", "Hello", "Bonsoir", "Coucou", "Salut Porsche", "Hey"],
+      "responses": ["Bonjour ! Comment puis-je vous assister aujourd'hui concernant nos véhicules Porsche ?", "Bienvenue chez Porsche ! En quoi puis-je vous aider ?", "Bonjour et bienvenue dans l'univers Porsche."]
+    },
+    {
+      "tag": "reservation",
+      "patterns": ["réserver", "réservation", "prendre rendez-vous", "essayer une voiture", "test drive", "je veux essayer", "programmer un essai", "faire un essai"],
+      "responses": ["Vous pouvez réserver un essai directement via notre espace client sur la page 'Réserver votre véhicule'.", "Je vous invite à réserver votre Porsche via notre formulaire de réservation en ligne.", "Nos conseillers sont également disponibles pour organiser un essai personnalisé."]
+    },
+    {
+      "tag": "models",
+      "patterns": ["modèles", "gamme", "voitures disponibles", "quels modèles", "Taycan", "Macan", "Cross Turismo", "Panamera", "Cayenne", "911"],
+      "responses": ["Notre gamme électrique comprend : Taycan, Taycan Cross Turismo et Macan Electric. Nous proposons également des modèles thermiques et hybrides comme la 911, la Panamera et le Cayenne.", "Actuellement, nos modèles 100% électriques incluent le Taycan et le Macan Electric. D'autres modèles sportifs et luxueux sont également disponibles."]
+    },
+    {
+      "tag": "autonomie",
+      "patterns": ["autonomie", "combien de kilomètres", "distance maximale", "jusqu'à combien de km", "quelle autonomie"],
+      "responses": ["L'autonomie du Taycan peut atteindre jusqu'à 503 km selon la version et les conditions de conduite.", "Selon le modèle, vous pouvez parcourir entre 400 et 500 km avec une charge complète.", "Nos modèles sont conçus pour offrir une autonomie optimale sans compromis sur les performances."]
+    },
+    {
+      "tag": "recharge",
+      "patterns": ["recharge", "temps de recharge", "combien de temps pour charger", "charge rapide", "bornes de recharge", "temps de charge"],
+      "responses": ["Sur borne rapide, vous pouvez atteindre 80% de charge en seulement 22 minutes.", "Grâce à la charge ultra-rapide, vous récupérez une autonomie importante en un temps record.", "La recharge à domicile est également possible avec nos solutions de charge Porsche."]
+    },
+    {
+      "tag": "ecologie",
+      "patterns": ["écologique", "CO2", "pollution", "environnement", "empreinte carbone", "protection de l'environnement", "impact écologique", "écoresponsable"],
+      "responses": ["Nos Porsche électriques sont développées avec l’objectif de réduire les émissions locales et de favoriser une mobilité plus durable.", "Nous nous engageons dans une démarche de neutralité carbone avec des usines utilisant 100% d'énergies renouvelables.", "L'électromobilité chez Porsche vise à conjuguer performance et respect de l’environnement."]
+    },
+    {
+      "tag": "maintenance",
+      "patterns": ["entretien", "maintenance", "révisions", "coût d'entretien", "service après-vente", "SAV"],
+      "responses": ["L'entretien des modèles électriques est généralement plus économique que celui des modèles thermiques.", "Nos équipes sont à votre disposition pour toute révision ou intervention dans nos centres agréés Porsche.", "Vous pouvez planifier un entretien via votre espace client Porsche."]
+    },
+    {
+      "tag": "financement",
+      "patterns": ["financement", "leasing", "LOA", "crédit", "paiement", "achat", "tarif", "prix"],
+      "responses": ["Nous proposons plusieurs solutions de financement adaptées à votre projet : crédit, leasing, ou location avec option d'achat.", "Nos conseillers peuvent vous accompagner pour définir la solution de financement la plus adaptée.", "Les tarifs varient selon le modèle et les options choisies. N’hésitez pas à consulter nos offres en ligne."]
+    },
+    {
+      "tag": "assistance",
+      "patterns": ["aide", "problème", "assistance", "panne", "support technique", "urgence", "assistance routière"],
+      "responses": ["En cas de besoin, notre assistance Porsche est disponible 24h/24 et 7j/7.", "Vous pouvez contacter notre support technique via l'espace client ou par téléphone.", "Nos équipes sont à votre écoute pour toute demande d'assistance ou de dépannage."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["merci", "merci beaucoup", "super", "parfait", "c'est tout", "merci Porsche"],
+      "responses": ["Avec plaisir ! N’hésitez pas à revenir si vous avez d’autres questions.", "Je reste à votre disposition pour toute autre demande.", "Bonne journée et bonne route avec Porsche !"]
+    }
+  ]
+}

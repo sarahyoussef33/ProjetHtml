@@ -2,100 +2,95 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Porsche - Gamme Électrique</title>
+    <title>Porsche - Accueil</title>
     <link rel="stylesheet" href="../css/porsche.css">
-        <script src="../js/accueil.js"></script>
-    <script src="../js/transitions.js"></script>
-
+    <script src="../js/accueil.js" defer></script>
+    <script src="../js/transitions.js" defer></script>
 </head>
 <body>
 
     <div id="page-loader">
-    <div class="loader-content">
-        <img src="../image/Porsche-Logo.png" alt="Porsche Logo">
-    </div>
+        <div class="loader-content">
+            <img src="../image/Porsche-Logo.png" alt="Porsche Logo">
+        </div>
     </div>
 
     <header>
-    <div class="header-video">
-        <video autoplay muted loop playsinline>
-            <source src="../Vidéo/AccueilPorsche.mp4" type="video/mp4">
-        </video>
-    </div>
-   <div class="header-content">
-        <a href="https://www.porsche.com/france/">
-            <img src="../image/Porsche-Logo.png" alt="Logo Porsche" id="logo">
-        </a>
-        <nav>
-            <a href="./accueil.html">Accueil</a>
-            
-            <div class="dropdown">
-                <a href="./Electrique.html" class="dropdown-toggle">Notre gamme 100% électrique</a>
-                <div class="dropdown-menu">
-                    <a href="./modeles.html">Découvrir tous nos modèles 100% électrique</a>
-                    <a href="./taycan.html">Taycan</a>
+        <div class="header-video">
+            <video autoplay muted loop playsinline>
+                <source src="../Vidéo/AccueilPorsche.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="header-content">
+            <a href="https://www.porsche.com/france/">
+                <img src="../image/Porsche-Logo.png" alt="Logo Porsche" id="logo">
+            </a>
+            <nav>
+                <a href="./accueil.html">Accueil</a>
+                <div class="dropdown">
+                    <a href="./Electrique.html" class="dropdown-toggle">Notre gamme 100% électrique</a>
+                    <div class="dropdown-menu">
+                        <a href="./modeles.html">Découvrir tous nos modèles 100% électrique</a>
+                        <a href="./taycan.html">Taycan</a>
+                    </div>
                 </div>
-            </div>
-            <a href="./espaceClient.html">Réserver votre véhicule</a>
-        </nav>
-    </div>
-    </div>
-</header>
-
+                <a href="./espaceClient.html">Réserver votre véhicule</a>
+                <a href="./chatbot.html">Porsche Assistant</a>
+            </nav>
+        </div>
+    </header>
 
     <main>
+        <section class="presentation reveal">
+            <h1>Bienvenue dans l’univers Porsche</h1>
+            <p>
+                Depuis plus de 70 ans, Porsche incarne la passion automobile, l’innovation technologique et un design inimitable.  
+                Chaque modèle est pensé pour offrir des sensations de conduite uniques et une expérience hors du commun.
+            </p>
+            <img src="../image/Porsche-Logo.png" alt="Logo Porsche">
+        </section>
 
-    <section class="presentation reveal">
-        <h1>Bienvenue dans l’univers Porsche</h1>
-        <p>
-            Depuis plus de 70 ans, Porsche incarne la passion automobile, l’innovation technologique et un design inimitable.  
-            Chaque modèle est pensé pour offrir des sensations de conduite uniques et une expérience hors du commun.
-        </p>
-        <img src="../image/Porsche-Logo.png">
-    </section>
+        <section class="electrique-intro reveal">
+            <h2>Porsche électrique : l’avenir, maintenant</h2>
+            <p>
+                Notre gamme 100% électrique repousse les limites de la performance tout en respectant l’environnement.  
+                Retrouvez l’ADN Porsche dans une nouvelle ère de mobilité.
+            </p>
+            <a href="./Electrique.html" class="btn-link">Découvrir la gamme électrique</a><br><br>
+            <img src="../image/2024-porsche-panamera-tech.png" class="interior" alt="Porsche électrique">
+        </section>
 
-    <section class="electrique-intro reveal">
-        <h2>Porsche électrique : l’avenir, maintenant</h2>
-        <p>
-            Notre gamme 100% électrique repousse les limites de la performance tout en respectant l’environnement.  
-            Retrouvez l’ADN Porsche dans une nouvelle ère de mobilité.
-        </p>
-        <a href="./Electrique.html" class="btn-link">Découvrir la gamme électrique</a><br><br>
-        <img src="../image/2024-porsche-panamera-tech.png" class ="interior">
-    </section>
-
-    <section class="appel-action reveal">
-        <h2>Vous avez trouvé votre voiture de rêve ?</h2>
-        <p>
-            Réservez votre essai ou votre modèle dès maintenant.
-        </p>
-        <a href="./espaceClient.html" class="btn-link">Réserver maintenant</a>
-        <img src="../image/ALL.png">
-    </section>
-
-</main>
-
+        <section class="appel-action reveal">
+            <h2>Vous avez trouvé votre voiture de rêve ?</h2>
+            <p>
+                Réservez votre essai ou votre modèle dès maintenant.
+            </p>
+            <a href="./espaceClient.html" class="btn-link">Réserver maintenant</a>
+            <img src="../image/ALL.png" alt="Gamme Porsche">
+        </section>
+    </main>
 
     <footer>
-    <div class="footer-content">
-        <div class="footer-left">
-            <img src="../image/Porsche-Logo.png" alt="Porsche Logo" class="footer-logo">
-            <p>© 2025 PorscheDY. Tous droits réservés.</p>
-        </div>
+        <div class="footer-content">
+            <div class="footer-left">
+                <img src="../image/Porsche-Logo.png" alt="Porsche Logo" class="footer-logo">
+                <p>© 2025 PorscheDY. Tous droits réservés.</p>
+                <p><a href="../html/Apropos.html"> A propos de nous</a></p>
+            </div>
 
-        <div class="footer-center">
-            <p><strong>Mobilité Responsable</strong></p>
-            <p>Pour les trajets courts, privilégiez la marche ou le vélo</p>
-            <p>Pensez à covoiturer</p>
-            <p>Au quotidien, prenez les transports en commun</p>
-            <p><strong>#SeDéplacerMoinsPolluer</strong></p>
-        </div>
+            <div class="footer-center">
+                <p><strong>Mobilité Responsable</strong></p>
+                <p>Pour les trajets courts, privilégiez la marche ou le vélo</p>
+                <p>Pensez à covoiturer</p>
+                <p>Au quotidien, prenez les transports en commun</p>
+                <p><strong>#SeDéplacerMoinsPolluer</strong></p>
+            </div>
 
-        <div class="footer-right">
-            <a href="https://www.porsche.com/france/">En savoir plus</a>
+            <div class="footer-right">
+                <a href="https://www.porsche.com/france/">En savoir plus</a>
+            </div>
         </div>
-    </div>
-</footer>
+    </footer>
 
 </body>
 </html>
